@@ -12,7 +12,7 @@ permalink: /
 Iedis is a beautiful, easy-to-use Redis GUI plugin, working with millions keys without blocking the Redis server.
 {: .fs-6 .fw-300 }
 
-[Purchase](https://plugins.jetbrains.com/plugin/12634-iedis-2/pricing#edition=commercial){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Download](docs/install-the-plugin){: .btn .fs-5 .mb-4 .mb-md-0 }
+[Purchase](https://plugins.jetbrains.com/plugin/12634-iedis-2/pricing#edition=commercial){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Download](https://plugins.jetbrains.com/plugin/12634-iedis-2/versions){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ---
 ### Compatible
