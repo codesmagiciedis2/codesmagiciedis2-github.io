@@ -1,1 +1,7 @@
+title: Iedis 2
+description: Iedis is a beautiful, easy-to-use Redis GUI plugin, working with millions keys without blocking the Redis server.
+google_analytics: UA-72182328-2
+show_downloads: true
 theme: jekyll-theme-cayman
+pname: Iedis 2
+pid: 12634-iedis-2
