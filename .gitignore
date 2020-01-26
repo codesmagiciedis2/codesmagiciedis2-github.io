@@ -31,3 +31,4 @@ dubbo_event_service.*
 _site
 Gemfile.lock
 .jekyll*
+.idea/**

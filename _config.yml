@@ -1,7 +1,21 @@
-title: Iedis 2
-description: Iedis is a beautiful, easy-to-use Redis GUI plugin, working with millions keys without blocking the Redis server.
-google_analytics: UA-72182328-2
-show_downloads: true
-theme: jekyll-theme-cayman
-pname: Iedis 2
-pid: 12634-iedis-2
+title: MinBatis
+ga_tracking: UA-72182328-3
+remote_theme:  pmarsceill/just-the-docs
+url: "https://iedis2.codesmagic.com"
+search_enabled: true
+search_tokenizer_separator: /[\s/]+/
+heading_anchors: true
+exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile"]
+plugins:
+  - jekyll-seo-tag
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  startings: []
+  blanklines: false
+  profile: false
+aux_links:
+  "Purchase":
+    - "https://plugins.jetbrains.com/plugin/12634-iedis-2/pricing#edition=commercial"
+footer_content: "Copyright © 2013-2020 Codes Magic. <a href=\"mailto:service@codesmagic.com?Subject=Iedis%202%20Support\">Contact Us</a> · <a href=\"https://eula.codesmagic.com\" target=\"_blank\">License</a>"
