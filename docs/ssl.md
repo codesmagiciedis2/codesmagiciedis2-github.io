@@ -7,7 +7,7 @@ nav_order: 6
 ### SSL/TLS
 Switch to SSL tab and select the PKCS12 file which is needed to establish a secure connection: 
 
-![ssl tab](/assets/images/ssl/ssl-tab.png)
+![ssl tab](/assets/images/ssl/ssl-tab.png){:class="screenshot"}
 
 ### PKCS12 File
 You can use the following command to generate a PKCS12 file:

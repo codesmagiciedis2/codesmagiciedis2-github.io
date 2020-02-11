@@ -11,4 +11,4 @@ Iedis 2 is now available at JetBrains marketplace. You can now purchase Iedis 2 
 
 After you purchase a license, you can register Iedis 2 via *IDE Help -> Register*:
 
-![register](/assets/images/purchase-register/register.png)
+![register](/assets/images/purchase-register/register.png){:class="screenshot"}

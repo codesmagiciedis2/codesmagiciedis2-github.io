@@ -16,7 +16,7 @@ You can add fields to hash, rename fields and remove fields from hash.
 ##### Add a Field
 To add a new field to hash, you can click ![add](/assets/images/member-operations/add2.png){:class="icon"} or use shortcut ```⌘ + N``` on Mac and ```Alt + Insert``` on Windows to open add field dialog:
 
-![add hash field](/assets/images/member-operations/add-hash-field2.png)
+![add hash field](/assets/images/member-operations/add-hash-field2.png){:class="screenshot"}
 
 ##### Rename a Field
 There are many ways to rename a field:
@@ -27,7 +27,7 @@ There are many ways to rename a field:
 
 All these three operations will make the field editable, then you can rename it and press ```↩``` when you're done:
 
-![rename hash field](/assets/images/member-operations/rename-hash-field2.png)
+![rename hash field](/assets/images/member-operations/rename-hash-field2.png){:class="screenshot"}
 
 ##### Remove a Field
 Select the field that you want to remove and click ![remove](/assets/images/member-operations/remove2.png){:class="icon"} or use shortcut ```⌘ + Del``` on Mac or ```Alt + Del``` on Windows to remove a field.
@@ -38,7 +38,7 @@ You can add values to a list and remove values from a list.
 ##### Add a Value
 To add a new value to list, you can click ![add](/assets/images/member-operations/add2.png){:class="icon"} or use shortcut ```⌘ + N``` on Mac and ```Alt + Insert``` on Windows to open add value dialog:
 
-![add list value](/assets/images/member-operations/add-list-value2.png)
+![add list value](/assets/images/member-operations/add-list-value2.png){:class="screenshot"}
 
 ##### Remove a Value
 Select the value that you want to remove and click ![remove](/assets/images/member-operations/remove2.png){:class="icon"} or use shortcut ```⌘ + Del``` on Mac or ```Alt + Del``` on Windows to remove a value.
@@ -49,7 +49,7 @@ You can add members to a set and remove members from a set.
 ##### Add a Member
 To add a new member to set, you can click ![add](/assets/images/member-operations/add2.png){:class="icon"} or use shortcut ```⌘ + N``` on Mac and ```Alt + Insert``` on Windows to open add member dialog:
 
-![add set member](/assets/images/member-operations/add-set-member2.png)
+![add set member](/assets/images/member-operations/add-set-member2.png){:class="screenshot"}
 
 ##### Remove a Member
 Select the member that you want to remove and click ![remove](/assets/images/member-operations/remove2.png){:class="icon"} or use shortcut ```⌘ + Del``` on Mac or ```Alt + Del``` on Windows to remove a member.
@@ -60,7 +60,7 @@ You can add members to zset, change member scores and remove members from zset.
 ##### Add a Field
 To add a new member to zset, you can click ![add](/assets/images/member-operations/add2.png){:class="icon"} or use shortcut ```⌘ + N``` on Mac and ```Alt + Insert``` on Windows to open add member dialog:
 
-![add zset member](/assets/images/member-operations/add-zset-member2.png)
+![add zset member](/assets/images/member-operations/add-zset-member2.png){:class="screenshot"}
 
 ##### Change Member Score
 There are many ways to change the score of a member:
@@ -71,7 +71,7 @@ There are many ways to change the score of a member:
 
 All these three operations will make the score editable, then you can rename it and press ```↩``` when you're done:
 
-![change zset score](/assets/images/member-operations/change-zset-score2.png)
+![change zset score](/assets/images/member-operations/change-zset-score2.png){:class="screenshot"}
 
 ##### Remove a Member
 Select the member that you want to remove and click ![remove](/assets/images/member-operations/remove2.png){:class="icon"} or use shortcut ```⌘ + Del``` on Mac or ```Alt + Del``` on Windows to remove a member.

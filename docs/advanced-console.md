@@ -13,10 +13,10 @@ We also make the result view more friendly for developers and you can also view 
 
 Select your desired Redis server and click ![terminal](/assets/images/advanced-console/terminal.png){:class="icon"} or use shortcut ```⌘ + ⇧ + F10``` on Mac and ```Ctrl + Shift + F10``` on Windows to open console:
 
-![open console](/assets/images/advanced-console/open-console2.png)
+![open console](/assets/images/advanced-console/open-console2.png){:class="screenshot"}
 
 This is how it looks like, it's simple and powerful:
 
-![console](/assets/images/advanced-console/console2.png)
+![console](/assets/images/advanced-console/console2.png){:class="screenshot"}
 
 **Note**: The console will be available after Redis Server mode is determined.

@@ -24,16 +24,16 @@ You need to install the app listed in the previous session in order to use Iedis
 ### Download Iedis 2
 If this is the first time you’ve started the app, you’ll see the welcome screen:
 
-![welcome screen](/assets/images/getting-started/welcome-screen.png)
+![welcome screen](/assets/images/getting-started/welcome-screen.png){:class="screenshot"}
 
 To install Iedis 2, open the plugins dialog from the Configure menu:
 
-![plugins option](/assets/images/getting-started/plugins-option.png)
+![plugins option](/assets/images/getting-started/plugins-option.png){:class="screenshot"}
 
 Then you need to open browse repositories dialog:
 
-![browse repositories](/assets/images/getting-started/browse-repositories3.png)
+![browse repositories](/assets/images/getting-started/browse-repositories3.png){:class="screenshot"}
 
 Finally, you can type ```Iedis```, ```iedis``` or ```redis``` to search it and then install the plugin from browse repositories dialog:
 
-![install iedis](/assets/images/getting-started/install-iedis3.png)
+![install iedis](/assets/images/getting-started/install-iedis3.png){:class="screenshot"}
