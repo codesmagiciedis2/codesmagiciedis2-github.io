@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Config Monitor
-nav_order: 14
+nav_order: 15
 ---
 
 ### Config Monitor

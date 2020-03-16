@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Configure Server
-nav_order: 5
+nav_order: 6
 ---
 
 ### Add a New Server
