@@ -31,90 +31,96 @@
     "relUrl": "/docs/configure-server.html"
   }
   ,"5": {
+    "title": "Discussion",
+    "content": "Discussion . You can use 钉钉 to discuss anything with us about the plugin. . Just scan the QR bellow to join the discussion. . .",
+    "url": "http://localhost:4000/docs/discussion.html",
+    "relUrl": "/docs/discussion.html"
+  }
+  ,"6": {
     "title": "Find Keys",
     "content": "Find Keys . You can use pattern matching to find keys easily and quickly. Just type your pattern you want to use in pattern editor and click or use shortcut ⌘ + ↩ on Mac and Ctrl + ↩ on Windows to execute scan operation: . . You can use as many patterns as you like, just make sure that they’re separated by new line: . . Use speed search to locate keys quickly: . . Note: Iedis 2 will take care of everything if Redis server is running under cluster mode. . Pagination . Iedis 2 won’t return all keys at once that matched by a pattern because it’s based on Redis scan command. You can scan more keys by clicking or use shortcut ⌥ + ⬇ on Mac and Alt + ⬇ on Windows: . . Note: Iedis 2 will take care of everything if Redis server is running under cluster mode. . Pattern History . Iedis 2 will remember all patterns you type in pattern editor. You can browse them quickly in history dialog by click or use shortcut ⌥ + ⌘ + E on Mac and Alt + Ctrl + E on Windows. . . You can select a pattern by using shortcut ↩ and it will get executed immediately. . Pattern Auto-completion . Iedis 2 provide pattern auto-completion based on pattern history while you’re typing in the pattern editor. This is a very useful feature no matter you want to reuse a history pattern or use a new pattern by modifying a existing one. . .",
     "url": "http://localhost:4000/docs/find-keys.html",
     "relUrl": "/docs/find-keys.html"
   }
-  ,"6": {
+  ,"7": {
     "title": "Home",
     "content": "Easy working with Redis . Iedis is a beautiful, easy-to-use Redis GUI plugin, working with millions keys without blocking the Redis server. . Purchase Download . . Compatible . Iedis 2 was built on IntelliJ platform, so it’s compatible with: IntelliJ IDEA, PhpStorm, WebStorm, PyCharm, RubyMine, AppCode, CLion, Gogland, DataGrip, Rider, MPS, Android Studio. . Download Jetbrains Application . You need to install the app listed in the previous session in order to use Iedis 2 .You can visit here to download the app you prefer to use. . Download Iedis 2 . If this is the first time you’ve started the app, you’ll see the welcome screen: . . To install Iedis 2, open the plugins dialog from the Configure menu: . . Then you need to open browse repositories dialog: . . Finally, you can type Iedis, iedis or redis to search it and then install the plugin from browse repositories dialog: . .",
     "url": "http://localhost:4000/",
     "relUrl": "/"
   }
-  ,"7": {
+  ,"8": {
     "title": "Key Explorer",
     "content": "Key Explorer . Key Explorer is the place where you can interact with Redis server handily. You can do many things here, add new keys, finding keys using patterns, edit values, etc. . Select your desired Redis server and click or double clicking on server label to open key explorer editor. You can use any node (master or slave) if Redis is running under cluster mode, Iedis 2 takes care of everything else. . . Key explorer was built with many useful areas which make it much easier to interact with Redis server: . . Note: We don’t need to open different key explorers for different nodes in the cluster as Iedis 2 will scan the cluster to match the pattern . Popup Menu . Key operations are also available as popup menu for convenience, you can right-click on matching keys area to make them visible: . .",
     "url": "http://localhost:4000/docs/key-explorer.html",
     "relUrl": "/docs/key-explorer.html"
   }
-  ,"8": {
+  ,"9": {
     "title": "Key Operations",
     "content": "Add a Key . Click or use shortcut ⌘ + N on Mac and Alt + Insert on Windows to open add key dialog: . . Specify the key name and key type you want the key to be: . . A value will be set as placeholder when you add a key, you can edit the value after you click the OK button: . . Clone a Key . You can clone a key with a different key name and the value will be copied as same as source key. To clone a key, you need to select the key that you want to copy from and click or use shortcut ⇧ + ⌘ + C on Mac and Shift + Ctrl + C on Windows to open clone key dialog where you can specify a new key name: . . Note: By default, Iedis 2 use currently selected key name as a suggestion for the new key when you add/clone a key. . Rename a Key . There are many ways to rename a key: . Press Enter key when a key is selected | Select the key and click | Select the key and use shortcut Shift + F6 | Double click on the key | Use popup menu by right-clicking on the key | . All these three operations will make the key editable, then you can rename it and press ↩ when you’re done: . . Change key type: You can’t change the key type on the fly. You need to delete the key and add it again with a new type. . Remove Keys . Select the keys that you want to remove and click or use shortcut ⌘ + Del on Mac or Alt + Del on Windows to remove keys. You can remove multi keys at once in this way: . . Copy a Key . Sometimes you need to copy the name of a key, you can use shortcut ⌘ + C on Mac and Ctrl + C on Windows to copy the name of a key. You can also right-click on a key and select Copy on the popup menu to copy the name of a key. . Set TTL . You can select as many keys as you like and set TTL for both of them: . . Flush DB . Flush DB is also available, but you need to carefully use this action because it will remove all data in the database you selected: . .",
     "url": "http://localhost:4000/docs/key-operations.html",
     "relUrl": "/docs/key-operations.html"
   }
-  ,"9": {
+  ,"10": {
     "title": "Lua Script",
     "content": "Lua Script . Iedis 2 integrates Redis commands with Lua script to make it easier to edit Lua script by providing auto-completion, command auto-completion, parameter auto-completion, documentation etc. We can also run and debug Lua script directly in our IDE. . Lua Plugin . Redis integration was built upon ‘EmmyLua’ plugin which is provided by tangzx. You need to install it before using integrated Lua editor. You can install it by following Getting Started which is the same process to install Iedis 2. .",
     "url": "http://localhost:4000/docs/lua-script.html",
     "relUrl": "/docs/lua-script.html"
   }
-  ,"10": {
+  ,"11": {
     "title": "Member Operations",
     "content": "Member Operations . hash, list, set, zset have member operations, string does not have any member operation because it only has value. Member operation will become visible when you select a corresponding key. Different key type have different member operations, let’s illustrate them one by one. . Note: Member operations are used to manipulate members instead of their corresponding value (Value Operations). . Hash . You can add fields to hash, rename fields and remove fields from hash. . Add a Field . To add a new field to hash, you can click or use shortcut ⌘ + N on Mac and Alt + Insert on Windows to open add field dialog: . . Rename a Field . There are many ways to rename a field: . Select the field and click | Select the field and use shortcut Shift + F6 | Double click on the field | Use popup menu by right-clicking on the field | . All these three operations will make the field editable, then you can rename it and press ↩ when you’re done: . . Remove a Field . Select the field that you want to remove and click or use shortcut ⌘ + Del on Mac or Alt + Del on Windows to remove a field. . List . You can add values to a list and remove values from a list. . Add a Value . To add a new value to list, you can click or use shortcut ⌘ + N on Mac and Alt + Insert on Windows to open add value dialog: . . Remove a Value . Select the value that you want to remove and click or use shortcut ⌘ + Del on Mac or Alt + Del on Windows to remove a value. . Set . You can add members to a set and remove members from a set. . Add a Member . To add a new member to set, you can click or use shortcut ⌘ + N on Mac and Alt + Insert on Windows to open add member dialog: . . Remove a Member . Select the member that you want to remove and click or use shortcut ⌘ + Del on Mac or Alt + Del on Windows to remove a member. . ZSet . You can add members to zset, change member scores and remove members from zset. . Add a Field . To add a new member to zset, you can click or use shortcut ⌘ + N on Mac and Alt + Insert on Windows to open add member dialog: . . Change Member Score . There are many ways to change the score of a member: . Select the score and click | Select the score and use shortcut Shift + F6 | Double click on the score | Use popup menu by right-clicking on the score | . All these three operations will make the score editable, then you can rename it and press ↩ when you’re done: . . Remove a Member . Select the member that you want to remove and click or use shortcut ⌘ + Del on Mac or Alt + Del on Windows to remove a member. . Copy a Member Name . Sometimes you need to copy the name of a member or the score value of zset member, you can use shortcut ⌘ + C on Mac and Ctrl + C on Windows to copy them. You can also right-click on the member and select Copy on the popup menu to copy the name of the member. .",
     "url": "http://localhost:4000/docs/member-operations.html",
     "relUrl": "/docs/member-operations.html"
   }
-  ,"11": {
+  ,"12": {
     "title": "Purchase/Register",
     "content": "Purchase . Iedis 2 is now available at JetBrains marketplace. You can now purchase Iedis 2 at JetBrains Store. . Register . After you purchase a license, you can register Iedis 2 via IDE Help -&gt; Register: . .",
     "url": "http://localhost:4000/docs/purchase-register.html",
     "relUrl": "/docs/purchase-register.html"
   }
-  ,"12": {
+  ,"13": {
     "title": "Script Debug",
     "content": "Debug Script . You can use all debug stuff that a debugger should provide, for instance, we can use breakpoints. You can configure debugger via Script Execution. . Debug Console . Iedis 2 launches a debug console during a debug session, you can execute Redis commands via debug console: . . Auto Completion . Iedis 2 provide command auto-completion in debug console which is the same as Command Execution: . . Documentation . Iedis 2 provide command documentation in debug console which is the same as Command Execution: . . Command Execution . Iedis 2 will print the detail of command interaction in the debugger if you choose Print Redis call detail when stepping over in Script Execution. This is pretty useful to determine that how your script affects the data set: . . You can use redis.debug() to print debug message to serve as logger.debug() for debugging purpose: . . Note: This is available when you use breakpoints. . Code Evaluation . You can run other Lua script while you’re debugging an existing script. You can evaluate code by right-click on Lua editor -&gt; select Evaluate Expression: . . You can execute script via evaluate expression dialog: . . If your script is long you can switch to evaluate code fragment mode: . . A string with a single world will be determined as a variable, and Iedis 2 will use PRINT command to display it’s current value in current debug session. Otherwise, Lua script will be evaluated using EVAL command. . Note: The EVAL command is executed in a different call frame. . Watcher . You can use watcher to monitor things to help you debugging easier: . .",
     "url": "http://localhost:4000/docs/script-debug.html",
     "relUrl": "/docs/script-debug.html"
   }
-  ,"13": {
+  ,"14": {
     "title": "Script Editing",
     "content": "Method Completion . Iedis 2 provides method name auto-completion while you’re invoking redis. or using KEYS, ARGV . . Command Completion . Iedis 2 provides command auto-completion while you’re invoking redis.call(). Command completion are aware of context for convenience: . . Documentation . Place your caret at any command character and use shortcut F1 to show quick documentation of a command, documentation will be rendered very quickly as they are offline: . . Lua Stuff . All other Lua language stuff is supported by EmmyLua plugin. .",
     "url": "http://localhost:4000/docs/script-editing.html",
     "relUrl": "/docs/script-editing.html"
   }
-  ,"14": {
+  ,"15": {
     "title": "Script Execution",
     "content": "Create Run Configuration . You need to create a run configuration before running Lua script, just right click on Lua editor and select Create Run Configuration: . . Configure Run Configuration . There are some options you can configure in run configuration dialog: . Specify on which server the script should run on | Choose the database the script should run against | Whether to print the detail of each Redis command execution when stepping over | Use sync mode to debug or not | Set key and arg values if your script needs them | . . You can change your run configuration later by select Select Run/Debug Configuration: . . Keys and Args . You can skip setting key and arg values in run configuration, Iedis 2 will ask you to provide them when you try to run the script if Iedis determines that KEYS or ARGV are required. Defined key and arg values are cached so that you don’t need to provide them each time you run the script. You can change cached values in previous run configuration. . . Run/Debug Script . You can start run/debug your script by clicking or : . . Coming soon: Run script on any node of a cluster. .",
     "url": "http://localhost:4000/docs/script-exec.html",
     "relUrl": "/docs/script-exec.html"
   }
-  ,"15": {
+  ,"16": {
     "title": "Select Database",
     "content": "Select Database . You can switch between different databases if you’re using a standalone Redis server. The 0 database will be selected automatically the first time you open key explorer: . . Note: This is not available if Redis server is running under cluster mode. .",
     "url": "http://localhost:4000/docs/select-database.html",
     "relUrl": "/docs/select-database.html"
   }
-  ,"16": {
+  ,"17": {
     "title": "Servers Window",
     "content": "Servers Window . To configure Redis servers you need to open Redis servers window first. There are two different ways to open it, the first one is to click it on the right toolbar: . . Another way is to use shortcut ⌘ + E on Mac and Alt + E on windows to open recent files dialog and type redis to search for Redis Servers option. You’re suggested to use the shortcut to work with IntelliJ because it’s more efficient. . . Servers window is the entry point to use Iedis 2: . .",
     "url": "http://localhost:4000/docs/servers-window.html",
     "relUrl": "/docs/servers-window.html"
   }
-  ,"17": {
+  ,"18": {
     "title": "SSL/TLS",
     "content": "SSL/TLS . Switch to SSL tab and select the PKCS12 file which is needed to establish a secure connection: . . PKCS12 File . You can use the following command to generate a PKCS12 file: . openssl pkcs12 -export -in redislabs_user.crt -inkey redislabs_user_private.key -out redisclient.p12 -passout pass:your_password .",
     "url": "http://localhost:4000/docs/ssl.html",
     "relUrl": "/docs/ssl.html"
   }
-  ,"18": {
+  ,"19": {
     "title": "Tree Viewer",
     "content": "Key Viewer . Select your desired Redis server and click Open Tree Viewer or double clicking on server label to open key explorer editor. . . DB Size . Iedis 2 will fetch DB size asynchronously when tree viewer is opened. DB without any keys will be shown using gray color. . . Reload . We can use Reload action to reload the keys in a database, keys matching a namespace or the value of a key. . . Delete Namespace . We can delete key all keys matching a namespace using Delete Namespace action. . . Filter Keys . We can use a pattern to filter the keys we want. . . Custom Separator . By default, Iedis 2 uses : to separate keys to build the key tree, you can change it via Changge Separator action. . . Other Actions . There are many other actions which we have saw in Key Operations. .",
     "url": "http://localhost:4000/docs/tree-viewer.html",
     "relUrl": "/docs/tree-viewer.html"
   }
-  ,"19": {
+  ,"20": {
     "title": "Value Operations",
     "content": "Values . All Redis data type (string, hash, list, set, zset) can have values. You can view and edit them in value editor when you select a corresponding key (string) or member (hash, list, set, zset). . Value Editor . Iedis 2 support many built-in data formats (e.g., JSON, XML, Msgpack, Pickle, etc.) which make it interact with Redis server handily. The value of a key or a member will be formatted properly before being rendered in the value editor when you select some kind of data format. . . Save . You can save the value by press or use shortcut ⌘ + S on Mac and Ctrl + S on Windows as soon as you finish your editing in the value editor. . Value editor will ensure that value does not contain any error before being saved to Redis. JSON and XML string will be compressed to reduce memory consuming before being saved to Redis when you invoke save action. Some data format (e.g., Msgpack) will be represented as JSON string in the value editor for representation purpose, you can still edit the JSON and it’ll be serialized using the data format you selected before being saved to Redis. . .",
     "url": "http://localhost:4000/docs/value-operations.html",
