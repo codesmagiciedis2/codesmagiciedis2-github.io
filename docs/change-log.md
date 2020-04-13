@@ -4,6 +4,10 @@ title: Change Log
 nav_order: 100
 ---
 
+### 2020.1.1
+  * Fixes
+       * Can't connect to server
+
 ### 2020.1
   * New Features
       * Clone member
