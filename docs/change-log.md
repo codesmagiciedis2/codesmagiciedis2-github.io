@@ -3,6 +3,9 @@ layout: default
 title: Change Log
 nav_order: 100
 ---
+### 2021.1
+  * New Features
+      * Support decoding PHP session (php format)
 
 ### 2020.1.1
   * Fixes
